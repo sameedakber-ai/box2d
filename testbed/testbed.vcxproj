@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3FFB59B4-0330-3865-B7EF-CEFA0A5F7FD5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>testbed</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sameed/Documents/C++/box2dbuild/testbed</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testbed.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testbed</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sameed/Documents/C++/box2dbuild/testbed</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testbed.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testbed</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sameed/Documents/C++/box2dbuild/testbed</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testbed.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testbed</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sameed/Documents/C++/box2dbuild/testbed</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testbed.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testbed</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -E copy_directory C:/Users/Sameed/Documents/C++/box2dbuild/testbed/data/ C:/Users/Sameed/Documents/C++/box2d/testbed/data/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\src\Debug\box2d.lib;..\extern\glfw\Debug\glfw.lib;..\extern\imgui\Debug\imgui.lib;..\extern\sajson\Debug\sajson.lib;..\extern\glad\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sameed/Documents/C++/box2d/testbed/Debug/testbed.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sameed/Documents/C++/box2d/testbed/Debug/testbed.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -E copy_directory C:/Users/Sameed/Documents/C++/box2dbuild/testbed/data/ C:/Users/Sameed/Documents/C++/box2d/testbed/data/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\src\Release\box2d.lib;..\extern\glfw\Release\glfw.lib;..\extern\imgui\Release\imgui.lib;..\extern\sajson\Release\sajson.lib;..\extern\glad\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sameed/Documents/C++/box2d/testbed/Release/testbed.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sameed/Documents/C++/box2d/testbed/Release/testbed.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -E copy_directory C:/Users/Sameed/Documents/C++/box2dbuild/testbed/data/ C:/Users/Sameed/Documents/C++/box2d/testbed/data/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\src\MinSizeRel\box2d.lib;..\extern\glfw\MinSizeRel\glfw.lib;..\extern\imgui\MinSizeRel\imgui.lib;..\extern\sajson\MinSizeRel\sajson.lib;..\extern\glad\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sameed/Documents/C++/box2d/testbed/MinSizeRel/testbed.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sameed/Documents/C++/box2d/testbed/MinSizeRel/testbed.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sameed\Documents\C++\box2dbuild\testbed;C:\Users\Sameed\Documents\C++\box2dbuild\src\..\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glfw\include;C:\Users\Sameed\Documents\C++\box2dbuild\extern\imgui\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\sajson\..;C:\Users\Sameed\Documents\C++\box2dbuild\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -E copy_directory C:/Users/Sameed/Documents/C++/box2dbuild/testbed/data/ C:/Users/Sameed/Documents/C++/box2d/testbed/data/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\src\RelWithDebInfo\box2d.lib;..\extern\glfw\RelWithDebInfo\glfw.lib;..\extern\imgui\RelWithDebInfo\imgui.lib;..\extern\sajson\RelWithDebInfo\sajson.lib;..\extern\glad\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sameed/Documents/C++/box2d/testbed/RelWithDebInfo/testbed.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sameed/Documents/C++/box2d/testbed/RelWithDebInfo/testbed.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Sameed/Documents/C++/box2dbuild/testbed/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -SC:/Users/Sameed/Documents/C++/box2dbuild -BC:/Users/Sameed/Documents/C++/box2d --check-stamp-file C:/Users/Sameed/Documents/C++/box2d/testbed/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Sameed/Documents/C++/box2dbuild/testbed/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -SC:/Users/Sameed/Documents/C++/box2dbuild -BC:/Users/Sameed/Documents/C++/box2d --check-stamp-file C:/Users/Sameed/Documents/C++/box2d/testbed/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Sameed/Documents/C++/box2dbuild/testbed/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -SC:/Users/Sameed/Documents/C++/box2dbuild -BC:/Users/Sameed/Documents/C++/box2d --check-stamp-file C:/Users/Sameed/Documents/C++/box2d/testbed/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Sameed/Documents/C++/box2dbuild/testbed/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\Sameed\AppData\Local\Temp\Rar"$"EXa584.38575\cmake-3.18.0-rc2-win64-x64\bin\cmake.exe -SC:/Users/Sameed/Documents/C++/box2dbuild -BC:/Users/Sameed/Documents/C++/box2d --check-stamp-file C:/Users/Sameed/Documents/C++/box2d/testbed/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sameed\Documents\C++\box2d\testbed\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\draw.cpp" />
+    <ClInclude Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\draw.h" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\imgui_impl_glfw.cpp" />
+    <ClInclude Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\imgui_impl_glfw.h" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\imgui_impl_opengl3.cpp" />
+    <ClInclude Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\imgui_impl_opengl3.h" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\main.cpp" />
+    <ClInclude Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\settings.h" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\settings.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\test.cpp" />
+    <ClInclude Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\test.h" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\add_pair.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\apply_force.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\body_types.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\box_stack.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\breakable.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\bridge.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\bullet_test.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\cantilever.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\car.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\chain.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\chain_problem.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\character_collision.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\circle_stack.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\collision_filtering.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\collision_processing.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\compound_shapes.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\confined.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\continuous_test.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\convex_hull.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\conveyor_belt.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\distance_joint.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\distance_test.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\dominos.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\dump_loader.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\dynamic_tree.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\edge_shapes.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\edge_test.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\friction.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\gear_joint.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\heavy1.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\heavy2.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\mobile_balanced.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\mobile_unbalanced.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\motor_joint.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\pinball.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\platformer.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\polygon_collision.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\polygon_shapes.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\prismatic_joint.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\pulley_joint.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\pyramid.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\ray_cast.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\restitution.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\revolute_joint.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\rope.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\rope_joint.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\sensor.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\shape_cast.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\shape_editing.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\skier.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\slider_crank_1.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\slider_crank_2.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\theo_jansen.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\tiles.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\time_of_impact.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\tumbler.cpp" />
+    <ClCompile Include="C:\Users\Sameed\Documents\C++\box2dbuild\testbed\tests\wheel_joint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Sameed\Documents\C++\box2d\ZERO_CHECK.vcxproj">
+      <Project>{CF3F7137-BB72-3433-8B47-425441E2E9A7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sameed\Documents\C++\box2d\src\box2d.vcxproj">
+      <Project>{CE9CBF1C-3FB8-3290-BC5E-85AC2DB31EAB}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sameed\Documents\C++\box2d\extern\glad\glad.vcxproj">
+      <Project>{E2BEEFCE-30D4-3ED6-A59D-6549C1E4836C}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sameed\Documents\C++\box2d\extern\glfw\glfw.vcxproj">
+      <Project>{897ABBD3-6DC5-3BCB-88F8-0EA99FA81E9A}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sameed\Documents\C++\box2d\extern\imgui\imgui.vcxproj">
+      <Project>{9B2DD14D-A1D6-3C3F-9F3C-0D57F6D6482D}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sameed\Documents\C++\box2d\extern\sajson\sajson.vcxproj">
+      <Project>{038C7DF0-0A71-3F7B-A2E3-83A3C796B56D}</Project>
+      <Name>sajson</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,9 @@
+C:/Users/Sameed/Documents/C++/box2d/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sameed/Documents/C++/box2d/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Sameed/Documents/C++/box2d/src/CMakeFiles/box2d.dir
+C:/Users/Sameed/Documents/C++/box2d/unit-test/CMakeFiles/unit_test.dir
+C:/Users/Sameed/Documents/C++/box2d/extern/glad/CMakeFiles/glad.dir
+C:/Users/Sameed/Documents/C++/box2d/extern/glfw/CMakeFiles/glfw.dir
+C:/Users/Sameed/Documents/C++/box2d/extern/imgui/CMakeFiles/imgui.dir
+C:/Users/Sameed/Documents/C++/box2d/extern/sajson/CMakeFiles/sajson.dir
+C:/Users/Sameed/Documents/C++/box2d/testbed/CMakeFiles/testbed.dir
